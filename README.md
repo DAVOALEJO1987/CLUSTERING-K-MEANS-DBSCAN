@@ -22,12 +22,12 @@ El código fuente implementa un flujo completo de aprendizaje automático no sup
 
 Posteriormente, el código desarrolla un Análisis Exploratorio de Datos (EDA), presentando estadísticas descriptivas y gráficos de distribución para comprender el comportamiento de las variables climáticas. A partir de estos datos depurados, se procede a la fase de modelado no supervisado utilizando algoritmos de clustering K-Means y DBSCAN. Para K-Means, se aplica el método del codo para determinar el número óptimo de clusters, mientras que para DBSCAN se evalúa la densidad de puntos.
 
-Finalmente, el código utiliza técnicas de reducción de dimensionalidad como PCA y t-SNE para visualizar los resultados de los clusters en un espacio bidimensional. Este enfoque permite identificar patrones climáticos ocultos y segmentar condiciones meteorológicas, aportando valor a aplicaciones como la predicción climática, planificación agrícola o análisis de riesgos, tecnologia de aprendizaje para maquinas generadoras de agua WATERGEN. 
+Finalmente, el código utiliza técnicas de reducción de dimensionalidad como PCA y t-SNE para visualizar los resultados de los clusters en un espacio bidimensional. Este enfoque permite identificar patrones climáticos ocultos y segmentar condiciones meteorológicas, aportando valor a aplicaciones como la predicción climática, planificación agrícola o análisis de riesgos, tecnología de aprendizaje para maquinas generadoras de agua WATERGEN. 
 
 Referencia [https://www.kaggle.com/datasets/hrhuynguyen/2d-spatial-dataset/data]
 
-# Uso del codigo  
-Para el uso integral del codigo se recomenda ir ejecutando cada sección del mismo:
+# Uso del código  
+Para el uso integral del código se recomenda ir ejecutando cada sección del mismo:
 
 ![image](https://github.com/user-attachments/assets/88cd44a7-f903-401e-8951-15f1b31eab2f)
 
@@ -64,3 +64,32 @@ Cluster 3 (rojo) es un grupo intermedio pero seco: alta exposición solar (8.51)
 Cluster 0 (azul) presenta condiciones más equilibradas: radiación y sol moderados, temperatura baja (-1.61) y humedad alta (0.94). Este grupo representa condiciones más típicas, ni extremas ni secas, lo que puede ser útil para operaciones estándar o predicción del clima predominante.
 
 ![image](https://github.com/user-attachments/assets/28dac114-4e05-4130-a337-35b3924019b2)
+
+# 📈 Caso de estudio  
+Este enfoque permite identificar patrones climáticos ocultos y segmentar condiciones meteorológicas, aportando valor a aplicaciones como la predicción climática, planificación agrícola o análisis de riesgos, tecnología de aprendizaje para maquinas generadoras de agua WATERGEN. 
+
+WATERGEN es una empresa tecnológica israelí especializada en soluciones para la generación de agua potable a partir del aire atmosférico. Utiliza dispositivos que capturan la humedad del ambiente, la condensan, filtran y purifican para producir agua segura para consumo humano. Esta tecnología, conocida como "atmospheric water generation" (AWG), es especialmente valiosa en zonas con escasez hídrica o sin acceso confiable a redes de agua potable.
+
+![image](https://github.com/user-attachments/assets/dd6a5eb8-e4e4-443b-b1fd-ea156f30e568)
+
+
+💡 ¿Cómo puede WATERGEN aprovechar la Inteligencia Artificial (IA)?
+La IA, y en particular las técnicas estudiadas como el aprendizaje no supervisado, pueden mejorar y optimizar los sistemas de WATERGEN en varios niveles:
+
+1. Optimización de generación de agua
+Con algoritmos como K-Means o PCA, se puede segmentar ambientes según condiciones climáticas (temperatura, humedad, presión) y ajustar los parámetros del sistema automáticamente para maximizar la recolección de agua.
+
+2. Geolocalización inteligente
+Analizando big data meteorológico (como el de Basilea), se pueden identificar regiones óptimas para desplegar unidades de WATERGEN, priorizando lugares con alto potencial de humedad atmosférica constante.
+
+3. Modelos de predicción climática
+IA supervisada y redes neuronales pueden predecir disponibilidad de humedad en función de datos históricos y pronósticos climáticos, ayudando a planificar operaciones de generación y distribución.
+
+4. Gestión eficiente de energía
+A través de IA, es posible optimizar el consumo energético de los sistemas AWG adaptando su funcionamiento a momentos del día más favorables según microclimas detectados.
+
+✅ Conclusión:
+WATERGEN puede beneficiarse enormemente de la IA aplicada al análisis de datos climáticos, mantenimiento y eficiencia operativa, transformándose en una empresa aún más sostenible, inteligente y resiliente ante el cambio climático.
+
+Refencia [https://us.watergen.com/]
+
