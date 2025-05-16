@@ -65,7 +65,7 @@ Cluster 0 (azul) presenta condiciones más equilibradas: radiación y sol modera
 
 ![image](https://github.com/user-attachments/assets/28dac114-4e05-4130-a337-35b3924019b2)
 
-# 📈 Caso de estudio  
+# 📈 Caso de estudio de propuesto  
 Este enfoque permite identificar patrones climáticos ocultos y segmentar condiciones meteorológicas, aportando valor a aplicaciones como la predicción climática, planificación agrícola o análisis de riesgos, tecnología de aprendizaje para maquinas generadoras de agua WATERGEN. 
 
 WATERGEN es una empresa tecnológica israelí especializada en soluciones para la generación de agua potable a partir del aire atmosférico. Utiliza dispositivos que capturan la humedad del ambiente, la condensan, filtran y purifican para producir agua segura para consumo humano. Esta tecnología, conocida como "atmospheric water generation" (AWG), es especialmente valiosa en zonas con escasez hídrica o sin acceso confiable a redes de agua potable.
