@@ -33,6 +33,19 @@ Para el uso integral del código se recomenda ir ejecutando cada sección del mi
 
 En caso de ayuda enviar un email a: david.narvaez@uees.edu.ec 
 
+# Tabla comparativa 
+Con base en el código fuente proporcionado, se utilizaron los siguientes métodos en el análisis no supervisado:
+
+- K-Means
+- DBSCAN
+- t-SNE (para visualización)
+- PCA (para reducción dimensional)
+
+Aquí tienes una tabla comparativa con sus ventajas y desventajas, enfocada al análisis de datos meteorológicos:
+
+![image](https://github.com/user-attachments/assets/7105e0bb-317f-4b34-aa3c-1f16155c5a6b)
+
+
 # Insight principales 
 # 📈 Interpretación del Silhouette Score en K-Means y DBSCAN
 Durante la implementación de los algoritmos de clustering K-Means y DBSCAN, se utilizó el Silhouette Score como métrica para evaluar la calidad de los clusters formados. Esta métrica mide qué tan similar es un objeto a su propio cluster (cohesión) en comparación con otros clusters (separación).
